@@ -19,14 +19,13 @@ function Card() {
             <a href={"###"}>Instagram</a>
 <br/>
             <h3>discord bot</h3>
-            <Link to="/bot-page">Link</Link>
+            <Link to="/bot-page">Link</Link> <br/>
+            <p>last update: may 2025</p>
 
         </div>
 
 
-
-
-</>
+        </>
     );
 }
 
