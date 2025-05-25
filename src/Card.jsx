@@ -1,12 +1,13 @@
 import React from "react";
 import './Card.css'
 import Rock from './assets/Rock to the Rhythm.mp3'
+import Three from './assets/three.png'
 // MyComponent.js
 function Card() {
     return (<>
 
         <div className={"bob"}>
-            <img alt={"photo"} src={"src/assets/three.png"} height={50} width={50}/>
+            <img alt={"profile pic"} src={Three} height={50} width={50}/>
            <p>grz3chotnik</p>
             <p className={"bluer"}>Asuncion, Paraguay</p>
         </div>
@@ -19,7 +20,6 @@ function Card() {
             <a></a>
             <audio autoPlay={true} src={Rock} loop={true}></audio>
         </div>
-
 
 
 
