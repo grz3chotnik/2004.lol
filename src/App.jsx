@@ -1,18 +1,27 @@
-import { useState } from 'react'
-import './App.css'
-import Card from "./Card.jsx";
-import {Router} from "react-router-dom";
-import Overlay from "./Overlay.jsx";
+import { useState } from 'react';
+import './App.css';
+import Card from './Card.jsx';
+import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
+import Overlay from './Overlay.jsx';
+import BotPage from './pages/BotPage.jsx';
 
-function App() {
-
-
-return (
-    <>
-    <Overlay></Overlay>
-    <Card></Card>
-    </>
-  )
+function Home() {
+    return (
+        <div>
+            <Card />
+        </div>
+    );
 }
 
-export default App
+function App() {
+    return (
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/bot-page" element={<BotPage />} />
+            </Routes>
+        </BrowserRouter>
+    );
+}
+
+export default App;

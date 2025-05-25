@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+
+}
+
+
+.bob {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    border: 2px solid white;
+
+}
+
+.bluer {
+    color: #646cff
+}
