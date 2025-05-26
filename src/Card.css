@@ -4,7 +4,7 @@
 }
 
 
-.bob {
+.bob{
     display: flex;
     flex-direction: column;
 }
@@ -15,4 +15,12 @@ img {
 
 .bluer {
     color: #646cff
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    /*border: 2px solid red;*/
+    width: 100vw;
+
 }

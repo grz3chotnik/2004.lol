@@ -1,26 +1,30 @@
-import { useState } from 'react';
 import './App.css';
 import Card from './Card.jsx';
-import { BrowserRouter, Link, Routes, Route } from 'react-router-dom';
+import {BrowserRouter, Link, Routes, Route} from 'react-router-dom';
 import Overlay from './Overlay.jsx';
 import BotPage from './pages/BotPage.jsx';
+import {useEffect} from "react";
+import DigitalClock from "./pages/DigitalClock.jsx";
 
 function Home() {
-    return (
-        <div>
-            <Card />
-        </div>
-    );
+    return (<div>
+        <Card/>
+    </div>);
 }
 
+
 function App() {
-    return (
+    return (<>
+            <DigitalClock/>
         <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/bot-page" element={<BotPage />} />
-            </Routes>
-        </BrowserRouter>
+        <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/bot-page" element={<BotPage/>}/>
+        </Routes>
+    </BrowserRouter>
+
+
+        </>
     );
 }
 

@@ -10,9 +10,15 @@
 }
 img {
     border: 2px solid white;
-
 }
 
-.bluer {
-    color: #646cff
+
+body {
+    overflow-x: hidden;
+    overscroll-behavior: none ;
+}
+.box {
+border: 5px solid red;
+    width: 100vw;
+    height: 100vh;
 }

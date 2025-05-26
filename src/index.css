@@ -75,7 +75,8 @@ button:focus-visible {
   }
 }
 
-.overlay {
+.dark {
   background-color: rgba(0, 0, 0, 0.65);
   color: black;
 }
+

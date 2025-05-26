@@ -20,7 +20,7 @@ function Card() {
 <br/>
             <h3>discord bot</h3>
             <Link to="/bot-page">Link</Link> <br/>
-            <p>last update: may 2025</p>
+            <p>last update: 26 may 2025</p>
 
         </div>
 
