@@ -11,16 +11,18 @@ function Card() {
             <img alt={"profile pic"} src={Three} height={50} width={50}/>
            <h3>grz3chotnik</h3>
             <p className={"bluer"}>Asunción, Paraguay</p>
+            <p> yeah</p>
         </div>
         <div className={"bob"}>
             <h3>links</h3>
+
             <a href={"https://github.com/grz3chotnik"}>Github</a>
             <a href={"https://www.youtube.com/@grz3chotnik"}>Youtube</a>
-            <a href={"###"}>Instagram</a>
+
 <br/>
-            <h3>discord bot</h3>
-            <Link to="/bot-page">Link</Link> <br/>
-            <p>last update: 26 may 2025</p>
+            {/*<h3>discord bot</h3>*/}
+            {/*<Link to="/bot-page">Link</Link> <br/>*/}
+            <p className={"bluer"}>last update: 28 may 2025</p>
 
         </div>
 
