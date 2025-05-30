@@ -4,7 +4,6 @@ import {BrowserRouter, Link, Routes, Route} from 'react-router-dom';
 import Overlay from './Overlay.jsx';
 import BotPage from './pages/BotPage.jsx';
 import DigitalClock from "./pages/DigitalClock.jsx";
-import { Analytics } from "@vercel/analytics/next"
 
 function Home() {
     return (<div>
@@ -15,7 +14,6 @@ function Home() {
 
 function App() {
     return (<>
-            <Analytics />
             <DigitalClock/>
         <BrowserRouter>
         <Routes>
