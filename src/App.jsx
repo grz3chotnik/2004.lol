@@ -15,6 +15,7 @@ function Home() {
 
 function App() {
     return (<>
+            <Analytics />
             <DigitalClock/>
         <BrowserRouter>
         <Routes>
@@ -22,7 +23,7 @@ function App() {
             <Route path="/bot-page" element={<BotPage/>}/>
         </Routes>
     </BrowserRouter>
-<Analytics/>
+
 
         </>
     );
