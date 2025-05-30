@@ -3,7 +3,6 @@ import Card from './Card.jsx';
 import {BrowserRouter, Link, Routes, Route} from 'react-router-dom';
 import Overlay from './Overlay.jsx';
 import BotPage from './pages/BotPage.jsx';
-import {useEffect} from "react";
 import DigitalClock from "./pages/DigitalClock.jsx";
 import { Analytics } from "@vercel/analytics/next"
 
