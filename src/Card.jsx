@@ -15,9 +15,9 @@ function Card() {
             <p> yeah</p>
         </div>
         <div className={"bob"}>
-            <h3>links</h3>
+            <h3>my links</h3>
 
-
+            <a href={"https://terminalcore.org"}>terminalcore.org</a>
             <a href={"https://ai.2004.lol"}>ai.2004.lol</a>
             <a href={"https://github.com/grz3chotnik"}>Github</a>
             <a href={"https://www.youtube.com/@grz3chotnik"}>Youtube</a>
@@ -25,7 +25,7 @@ function Card() {
 <br/>
             {/*<h3>discord bot</h3>*/}
             {/*<Link to="/bot-page">Link</Link> <br/>*/}
-            <p className={"bluer"}>last update: 28 may 2025</p>
+            <p className={"bluer"}>last update: 1 june 2025</p>
 
         </div>
 
