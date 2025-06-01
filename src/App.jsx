@@ -4,12 +4,12 @@ import {BrowserRouter, Link, Routes, Route} from 'react-router-dom';
 import Overlay from './Overlay.jsx';
 import BotPage from './pages/BotPage.jsx';
 import DigitalClock from "./pages/DigitalClock.jsx";
-
 function Home() {
     return (<div>
         <Card/>
     </div>);
 }
+
 
 
 function App() {
@@ -21,7 +21,6 @@ function App() {
             <Route path="/bot-page" element={<BotPage/>}/>
         </Routes>
     </BrowserRouter>
-
 
         </>
     );

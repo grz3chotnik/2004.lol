@@ -1,11 +1,12 @@
-import React from "react";
 import './Card.css'
 import Rock from './assets/Rock to the Rhythm.mp3'
 import Three from './assets/three.png'
 import {Link, Router} from "react-router-dom";
-// MyComponent.js
 function Card() {
+
     return (<>
+
+
 
         <div className={"bob"}>
             <img alt={"profile pic"} src={Three} height={50} width={50}/>
@@ -16,6 +17,8 @@ function Card() {
         <div className={"bob"}>
             <h3>links</h3>
 
+
+            <a href={"https://ai.2004.lol"}>ai.2004.lol</a>
             <a href={"https://github.com/grz3chotnik"}>Github</a>
             <a href={"https://www.youtube.com/@grz3chotnik"}>Youtube</a>
 
