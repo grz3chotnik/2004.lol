@@ -2,7 +2,9 @@
     margin: 0px;
 
 }
-
+h1 {
+    font-size: 1.50em;
+}
 
 .bob{
     display: flex;
