@@ -1,7 +1,6 @@
 import './App.css';
 import Card from './Card.jsx';
 import {BrowserRouter, Link, Routes, Route} from 'react-router-dom';
-import Overlay from './Overlay.jsx';
 import BotPage from './pages/BotPage.jsx';
 import DigitalClock from "./pages/DigitalClock.jsx";
 function Home() {

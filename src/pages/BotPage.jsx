@@ -21,7 +21,9 @@ function BotPage() {
             <div>
             <h3>work in progress</h3>
             <Link to="/">{'<-- Home'} </Link>
-        </div>
+                <a href={"https://discord.com/oauth2/authorize?client_id=1376183588034318346"}target="_blank" >discord bot</a>
+
+            </div>
         </div>
 
             <div className={"box"}>
