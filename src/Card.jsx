@@ -33,6 +33,8 @@ function Card() {
                 <br/>
                 <p className="bluer">last update: 3 Jul 2025</p>
             </div>
+
+
         </>
     )
 }
