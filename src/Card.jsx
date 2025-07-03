@@ -31,7 +31,7 @@ function Card() {
                 <h1>Other</h1>
                 <Link to="/bot-page">Discord Bot</Link>
                 <br/>
-                <p className="bluer">last update: 4 jun 2025</p>
+                <p className="bluer">last update: 3 Jul 2025</p>
             </div>
         </>
     )
