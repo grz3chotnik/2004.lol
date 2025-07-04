@@ -17,6 +17,7 @@ function Card() {
                 <p>yeah</p>
             </div>
             <div className="bob">
+
                 <h1>My links</h1>
                 <a href="https://terminalcore.org" target="_blank" rel="noopener noreferrer">
                     terminalcore.org
@@ -32,6 +33,10 @@ function Card() {
                 <Link to="/bot-page">Discord Bot</Link>
                 <br/>
                 <p className="bluer">last update: 3 Jul 2025</p>
+                <br/>
+                <img src={"src/ev.jpg"} height={"100vh"} width={"100vh"} alt={""}/>
+                <p>ev.jpg</p>
+
             </div>
 
 
