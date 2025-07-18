@@ -34,8 +34,8 @@ function Card() {
                 <br/>
                 <p className="bluer">last update: 3 Jul 2025</p>
                 <br/>
-                <img src={"src/ev.jpg"} height={"100vh"} width={"100vh"} alt={""}/>
-                <p>ev.jpg</p>
+                {/*<img src={"./src/ev.jpg"} height={"100vh"} width={"100vh"} alt={""}/>*/}
+                {/*<p>ev.jpg</p>*/}
 
             </div>
 
