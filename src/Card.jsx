@@ -13,7 +13,6 @@ function Card() {
                     width={50}
                 />
                 <h1>grz3chotnik</h1>
-                <p className="bluer">Asunción, Paraguay</p>
                 <p>yeah</p>
             </div>
             <div className="bob">
@@ -24,9 +23,6 @@ function Card() {
                 </a>
                 <a href="https://github.com/grz3chotnik" target="_blank" rel="noopener noreferrer">
                     Github
-                </a>
-                <a href="https://www.youtube.com/@grz3chotnik" target="_blank" rel="noopener noreferrer">
-                    Youtube
                 </a>
                 <br/>
                 <h1>Other</h1>
