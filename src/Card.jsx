@@ -13,11 +13,11 @@ function Card() {
                     width={50}
                 />
                 <h1>grz3chotnik</h1>
-                <p>yeah</p>
+                <p>worst programmer that hes ever lived</p>
             </div>
             <div className="bob">
 
-                <h1>My links</h1>
+                <h1>stuff</h1>
                 <a href="https://terminalcore.org" target="_blank" rel="noopener noreferrer">
                     terminalcore.org
                 </a>
@@ -26,9 +26,8 @@ function Card() {
                 </a>
                 <br/>
                 <h1>Other</h1>
-                <Link to="/bot-page">Discord Bot</Link>
                 <br/>
-                <p className="bluer">last update: 3 Jul 2025</p>
+                <p className="bluer">last update: 3 sep 2025</p>
                 <br/>
                 {/*<img src={"./src/ev.jpg"} height={"100vh"} width={"100vh"} alt={""}/>*/}
                 {/*<p>ev.jpg</p>*/}
