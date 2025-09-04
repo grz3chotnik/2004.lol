@@ -17,7 +17,7 @@ function Card() {
             </div>
             <div className="bob">
 
-                <h1>stuff</h1>
+                <h1>my stuff</h1>
                 <a href="https://terminalcore.org" target="_blank" rel="noopener noreferrer">
                     terminalcore.org
                 </a>
@@ -25,7 +25,6 @@ function Card() {
                     Github
                 </a>
                 <br/>
-                <h1>Other</h1>
                 <br/>
                 <p className="bluer">last update: 3 sep 2025</p>
                 <br/>
