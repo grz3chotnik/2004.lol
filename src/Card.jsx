@@ -18,9 +18,7 @@ function Card() {
             <div className="bob">
 
                 <h1>my stuff</h1>
-                <a href="https://terminalcore.org" target="_blank" rel="noopener noreferrer">
-                    terminalcore.org
-                </a>
+
                 <a href="https://github.com/grz3chotnik" target="_blank" rel="noopener noreferrer">
                     Github
                 </a>
